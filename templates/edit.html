@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edit Student</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <!-- Background circles -->
+    <div class="bg-circle blue"></div>
+    <div class="bg-circle orange"></div>
+
+    <!-- Page Center Wrapper -->
+    <div class="page-center">
+      <!-- Glass Card -->
+      <div class="card">
+        <h2>Edit Student</h2>
+
+        <form method="POST">
+          <label>Name</label>
+          <input name="name" value="{{ student[1] }}" required />
+
+          <label>Marks</label>
+          <input name="marks" value="{{ student[2] }}" required />
+
+          <button class="btn">Update Student</button>
+        </form>
+
+        <a href="/list" class="back-btn">Back</a>
+      </div>
+    </div>
+  </body>
+</html>

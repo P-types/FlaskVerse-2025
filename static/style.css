@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: #0d0d16;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.page-center {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-circle {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.85;
+  z-index: -1;
+}
+
+.blue {
+  background: #2569ff;
+  top: -100px;
+  left: -80px;
+}
+
+.orange {
+  background: #ff7b00;
+  bottom: -100px;
+  right: -80px;
+}
+
+.card,
+.login-box {
+  width: 380px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  text-align: left;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+label {
+  font-size: 14px;
+  color: #ddd;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background: #1c1c27;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.btn,
+.btn-link {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #ffffff;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn-link:hover {
+  background: #e8e8e8;
+}
+
+.edit-btn {
+  color: #4da6ff;
+  margin-right: 10px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.delete-btn {
+  color: #ff4040;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.back-btn,
+.logout-btn {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  color: #bdbdbd;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.back-btn:hover,
+.logout-btn:hover {
+  color: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.error {
+  background: rgba(255, 0, 0, 0.25);
+  padding: 10px;
+  color: #ff9191;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 10px;
+}
